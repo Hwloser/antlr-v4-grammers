@@ -14,4 +14,13 @@
 
   <name>antlr : csv</name>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.antlr</groupId>
+        <artifactId>antlr4-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>

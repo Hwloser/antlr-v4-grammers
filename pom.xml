@@ -26,6 +26,13 @@
       <plugin>
         <groupId>org.antlr</groupId>
         <artifactId>antlr4-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>antlr4</goal>
+            </goals>
+          </execution>
+        </executions>
         <configuration>
           <listener>true</listener>
           <sourceDirectory>src/main/antlr4</sourceDirectory>
@@ -39,13 +46,6 @@
           <groupId>org.antlr</groupId>
           <artifactId>antlr4-maven-plugin</artifactId>
           <version>4.8</version>
-          <executions>
-            <execution>
-              <goals>
-                <goal>antlr4</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
       </plugins>
     </pluginManagement>
