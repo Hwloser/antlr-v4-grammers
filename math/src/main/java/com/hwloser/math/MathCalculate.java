@@ -3,7 +3,6 @@ package com.hwloser.math;
 import com.hwloser.math.MathParser.ProgContext;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
-
 import org.antlr.v4.runtime.CommonTokenStream;
 
 public class MathCalculate {
