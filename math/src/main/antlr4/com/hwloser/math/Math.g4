@@ -1,6 +1,6 @@
 grammar Math;
 
-//@header{ package com.hwloser.math; }
+@header{ package com.hwloser.math; }
 
 prog : stat+ ;
 
@@ -9,7 +9,7 @@ stat: expr NEWLINE                  # printExpr
     | NEWLINE                       # blank
     ;
 
-expr:  expr op=('*'|'/') expr       # MulDiv
+expr: expr op=('*'|'/') expr        # MulDiv
     | expr op=('+'|'-') expr        # AddSub
     | INT                           # int
     | ID                            # id
